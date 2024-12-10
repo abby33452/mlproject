@@ -135,6 +135,7 @@ class DataTransformation:
 
             )
 
+# These returning values will go in model trainer
             return (
                 train_arr,
                 test_arr,
