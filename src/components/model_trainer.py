@@ -91,6 +91,8 @@ class ModelTrainer:
                 
             }
 
+            # caling eval method from util ==>where grid seaerch scoring technuqie 
+            # all are given to train a model
             model_report:dict=evaluate_models(X_train=X_train,
                                               y_train = y_train,
                                               X_test=X_test,
